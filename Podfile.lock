@@ -1,0 +1,52 @@
+PODS:
+  - HanekeSwift (0.10.1)
+  - ImageSlideshow (1.0.0):
+    - ImageSlideshow/Core (= 1.0.0)
+  - ImageSlideshow/Core (1.0.0)
+  - ImageSlideshow/SDWebImage (1.0.0):
+    - ImageSlideshow/Core
+    - SDWebImage (~> 3.7)
+  - Material (2.4.0):
+    - Material/Core (= 2.4.0)
+  - Material/Core (2.4.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SideMenu (2.0.7)
+  - SlideMenuControllerSwift (3.0.1)
+  - Toast-Swift (2.0.0)
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - HanekeSwift (from `https://github.com/jasonnoahchoi/HanekeSwift`, branch `swift3`)
+  - ImageSlideshow (~> 1.0.0)
+  - ImageSlideshow/SDWebImage
+  - Material (~> 2.0)
+  - SideMenu
+  - SlideMenuControllerSwift
+  - Toast-Swift (~> 2.0.0)
+  - youtube-ios-player-helper (~> 0.1.4)
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :branch: swift3
+    :git: https://github.com/jasonnoahchoi/HanekeSwift
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :commit: 8571f0285ae7daa578866e50bc36cc85946e9ae8
+    :git: https://github.com/jasonnoahchoi/HanekeSwift
+
+SPEC CHECKSUMS:
+  HanekeSwift: 4113367892828e7700d24a384027de6ebc79aad1
+  ImageSlideshow: 2787e10e202b79ecf5348a205c539fcc5bb8e62b
+  Material: a366cee7e9f7bee5e55ff6a2afe91fcb91514b95
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SideMenu: c5d3c3bc855b96bc2059e0b1ec346ecb54e80447
+  SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: 2ceb8ab8892a38106f80b5c123b9e90f88b287e6
+
+COCOAPODS: 1.1.1

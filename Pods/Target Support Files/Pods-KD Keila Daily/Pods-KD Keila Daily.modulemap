@@ -1,0 +1,6 @@
+framework module Pods_KD_Keila_Daily {
+  umbrella header "Pods-KD Keila Daily-umbrella.h"
+
+  export *
+  module * { export * }
+}

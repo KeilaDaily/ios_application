@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B5147874FCDE8F8FA65DF3 /* Pods_KD_Keila_Daily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D11B1FF3546BC60F0AE0393C /* Pods_KD_Keila_Daily.framework */; };
+		6A15F90F1E818394006BE28B /* ClassContentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A15F90E1E818394006BE28B /* ClassContentDetail.swift */; };
+		6A15F9121E818509006BE28B /* keila_daily_adv1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A15F9101E818509006BE28B /* keila_daily_adv1.png */; };
+		6A15F9131E818509006BE28B /* keila_daily_adv_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A15F9111E818509006BE28B /* keila_daily_adv_2.png */; };
+		6A15F9151E81893B006BE28B /* NewsDetailTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A15F9141E81893B006BE28B /* NewsDetailTestViewController.swift */; };
+		6A1976711F0D3E3D009B0408 /* kd_startup.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A1976701F0D3E3D009B0408 /* kd_startup.png */; };
+		6A20E8451E8D43A00090699D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A20E8441E8D43A00090699D /* MainViewController.swift */; };
+		6A21A71D1E7E97D500639DAB /* ClassHomeContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A71C1E7E97D500639DAB /* ClassHomeContent.swift */; };
+		6A21A71F1E7EEEAB00639DAB /* keila_daily_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A21A71E1E7EEEAA00639DAB /* keila_daily_menu.png */; };
+		6A21A7211E7EF93500639DAB /* keila_daily_adv.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A21A7201E7EF93500639DAB /* keila_daily_adv.png */; };
+		6A3D1DE21F1675BB005E1375 /* CommonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3D1DE11F1675BB005E1375 /* CommonClass.swift */; };
+		6A41A5671E6ECB6C00E383AD /* KeilaCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A5651E6ECB6C00E383AD /* KeilaCategoryViewController.swift */; };
+		6A41A5681E6ECB6C00E383AD /* KeilaCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A41A5661E6ECB6C00E383AD /* KeilaCategoryViewController.xib */; };
+		6A455FEB1EDB289B00F69951 /* ClassVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A455FEA1EDB289B00F69951 /* ClassVideo.swift */; };
+		6A535AC61E44E2CB004D667F /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A535AC51E44E2CB004D667F /* VideoViewController.swift */; };
+		6A56E83F1E45B95200D1C901 /* seashore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A56E83E1E45B95200D1C901 /* seashore.jpg */; };
+		6A56E8411E45C36200D1C901 /* newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A56E8401E45C36200D1C901 /* newspaper.png */; };
+		6A56E8431E45C3C000D1C901 /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A56E8421E45C3C000D1C901 /* play-button.png */; };
+		6A56E8451E45C45300D1C901 /* spotify-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A56E8441E45C45300D1C901 /* spotify-logo.png */; };
+		6A56E8471E45C4C600D1C901 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56E8461E45C4C600D1C901 /* TabBarViewController.swift */; };
+		6A57BC641EDF1535008D2279 /* VideoLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A57BC631EDF1535008D2279 /* VideoLauncher.swift */; };
+		6A624CD31E8035B0001BA128 /* ExSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A624CD21E8035B0001BA128 /* ExSlideMenuController.swift */; };
+		6A6CCDD41E8E9BF300977F7C /* NewsByCategoryMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6CCDD31E8E9BF300977F7C /* NewsByCategoryMainViewController.swift */; };
+		6A7230FB1E78422C0079B292 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7230FA1E78422C0079B292 /* WebServices.swift */; };
+		6A7335BF1E8F9E790023581B /* komsandialy_advertising.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7335BD1E8F9E790023581B /* komsandialy_advertising.png */; };
+		6A7335C01E8F9E790023581B /* pisnoka_kd_ads.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7335BE1E8F9E790023581B /* pisnoka_kd_ads.png */; };
+		6A77E1A91E437D6800E5E180 /* NewsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77E1A81E437D6800E5E180 /* NewsListTableViewCell.swift */; };
+		6A77E1AB1E437D8200E5E180 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77E1AA1E437D8200E5E180 /* NewsViewController.swift */; };
+		6A77E1AD1E43821500E5E180 /* NewsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A77E1AC1E43821500E5E180 /* NewsListTableViewCell.xib */; };
+		6A77E1B21E438E6B00E5E180 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A77E1B11E438E6B00E5E180 /* SWRevealViewController.m */; };
+		6A77E1B41E43912B00E5E180 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77E1B31E43912A00E5E180 /* MenuTableViewController.swift */; };
+		6A84F3BD1E5358DE00A4ADF4 /* soccer-ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A84F3BC1E5358DE00A4ADF4 /* soccer-ball.png */; };
+		6A84F3C01E5359E400A4ADF4 /* user-silhouette.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A84F3BE1E5359E400A4ADF4 /* user-silhouette.png */; };
+		6A84F3C11E5359E400A4ADF4 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A84F3BF1E5359E400A4ADF4 /* hand.png */; };
+		6A84F3C51E53640600A4ADF4 /* nut-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A84F3C21E53640600A4ADF4 /* nut-icon.png */; };
+		6A84F3C61E53640600A4ADF4 /* rate-star-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A84F3C31E53640600A4ADF4 /* rate-star-button.png */; };
+		6A84F3C71E53640600A4ADF4 /* home-icon-silhouette.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A84F3C41E53640600A4ADF4 /* home-icon-silhouette.png */; };
+		6A8ED9F31E79970C0033AD2B /* ClassMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8ED9F21E79970C0033AD2B /* ClassMenu.swift */; };
+		6A93A2A81E6DBB4100F34DA0 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A93A2A71E6DBB4100F34DA0 /* NewsDetailViewController.swift */; };
+		6A943E5C1E8BEF1900B70CE0 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A943E5B1E8BEF1900B70CE0 /* LeftViewController.swift */; };
+		6A943E5E1E8BFD3700B70CE0 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A943E5D1E8BFD3700B70CE0 /* SelectViewController.swift */; };
+		6A943E601E8C02FD00B70CE0 /* TabBarTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A943E5F1E8C02FD00B70CE0 /* TabBarTestViewController.swift */; };
+		6A9CBA9C1E330669006C2EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9CBA9B1E330669006C2EB9 /* AppDelegate.swift */; };
+		6A9CBA9E1E330669006C2EB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9CBA9D1E330669006C2EB9 /* ViewController.swift */; };
+		6A9CBAA31E330669006C2EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9CBAA21E330669006C2EB9 /* Assets.xcassets */; };
+		6A9CBAA61E330669006C2EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9CBAA41E330669006C2EB9 /* LaunchScreen.storyboard */; };
+		6AAFED5E1E332691001D56C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AAFED5C1E332691001D56C1 /* Main.storyboard */; };
+		6ACF4E751E7AAC42003CF2E7 /* ClassSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF4E741E7AAC42003CF2E7 /* ClassSlide.swift */; };
+		6ACF4E771E7AAF55003CF2E7 /* ClassContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF4E761E7AAF55003CF2E7 /* ClassContent.swift */; };
+		6AE095BA1EB5CB5F002C4989 /* kd-logo-r.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE095B91EB5CB5F002C4989 /* kd-logo-r.png */; };
+		6AE095BC1EB5CEEF002C4989 /* calenda-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE095BB1EB5CEEF002C4989 /* calenda-icon.png */; };
+		6AEA6FF11E856DA50008EA58 /* NewsByCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA6FF01E856DA50008EA58 /* NewsByCategoryCollectionViewCell.swift */; };
+		6AEB7CE01E7BFF72003FB619 /* NewsHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEB7CDF1E7BFF72003FB619 /* NewsHomePageViewController.swift */; };
+		6AEB7CE21E7C0355003FB619 /* NewsByCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEB7CE11E7C0355003FB619 /* NewsByCategoryViewController.swift */; };
+		6AED45AE1EDC5C7C005FDE9C /* YoutubeVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AED45AD1EDC5C7C005FDE9C /* YoutubeVideoTableViewCell.swift */; };
+		6AF7BECA1E6C413100366A95 /* NewsHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7BEC91E6C413100366A95 /* NewsHeaderTableViewCell.swift */; };
+		6AF7BECD1E6C455400366A95 /* ReferenceValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7BECC1E6C455400366A95 /* ReferenceValues.swift */; };
+		6AF7BECF1E6C489700366A95 /* NewsByCategoryHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7BECE1E6C489700366A95 /* NewsByCategoryHeaderTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3998AD27D3E4A18058FCF711 /* Pods-KD Keila Daily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KD Keila Daily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KD Keila Daily/Pods-KD Keila Daily.debug.xcconfig"; sourceTree = "<group>"; };
+		6A15F90E1E818394006BE28B /* ClassContentDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassContentDetail.swift; sourceTree = "<group>"; };
+		6A15F9101E818509006BE28B /* keila_daily_adv1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keila_daily_adv1.png; sourceTree = "<group>"; };
+		6A15F9111E818509006BE28B /* keila_daily_adv_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keila_daily_adv_2.png; sourceTree = "<group>"; };
+		6A15F9141E81893B006BE28B /* NewsDetailTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailTestViewController.swift; sourceTree = "<group>"; };
+		6A1976701F0D3E3D009B0408 /* kd_startup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kd_startup.png; sourceTree = "<group>"; };
+		6A20E8441E8D43A00090699D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6A21A71C1E7E97D500639DAB /* ClassHomeContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassHomeContent.swift; sourceTree = "<group>"; };
+		6A21A71E1E7EEEAA00639DAB /* keila_daily_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keila_daily_menu.png; sourceTree = "<group>"; };
+		6A21A7201E7EF93500639DAB /* keila_daily_adv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keila_daily_adv.png; sourceTree = "<group>"; };
+		6A3D1DE11F1675BB005E1375 /* CommonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonClass.swift; sourceTree = "<group>"; };
+		6A41A5651E6ECB6C00E383AD /* KeilaCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeilaCategoryViewController.swift; sourceTree = "<group>"; };
+		6A41A5661E6ECB6C00E383AD /* KeilaCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeilaCategoryViewController.xib; sourceTree = "<group>"; };
+		6A455FEA1EDB289B00F69951 /* ClassVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassVideo.swift; sourceTree = "<group>"; };
+		6A535AC51E44E2CB004D667F /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		6A56E83E1E45B95200D1C901 /* seashore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seashore.jpg; sourceTree = "<group>"; };
+		6A56E8401E45C36200D1C901 /* newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newspaper.png; sourceTree = "<group>"; };
+		6A56E8421E45C3C000D1C901 /* play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button.png"; sourceTree = "<group>"; };
+		6A56E8441E45C45300D1C901 /* spotify-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spotify-logo.png"; sourceTree = "<group>"; };
+		6A56E8461E45C4C600D1C901 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		6A57BC631EDF1535008D2279 /* VideoLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLauncher.swift; sourceTree = "<group>"; };
+		6A624CD21E8035B0001BA128 /* ExSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSlideMenuController.swift; sourceTree = "<group>"; };
+		6A6CCDD31E8E9BF300977F7C /* NewsByCategoryMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsByCategoryMainViewController.swift; sourceTree = "<group>"; };
+		6A7230FA1E78422C0079B292 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		6A7335BD1E8F9E790023581B /* komsandialy_advertising.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = komsandialy_advertising.png; sourceTree = "<group>"; };
+		6A7335BE1E8F9E790023581B /* pisnoka_kd_ads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pisnoka_kd_ads.png; sourceTree = "<group>"; };
+		6A77E1A81E437D6800E5E180 /* NewsListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListTableViewCell.swift; sourceTree = "<group>"; };
+		6A77E1AA1E437D8200E5E180 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		6A77E1AC1E43821500E5E180 /* NewsListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsListTableViewCell.xib; sourceTree = "<group>"; };
+		6A77E1AF1E438E6B00E5E180 /* KD Keila Daily-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KD Keila Daily-Bridging-Header.h"; sourceTree = "<group>"; };
+		6A77E1B01E438E6B00E5E180 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		6A77E1B11E438E6B00E5E180 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		6A77E1B31E43912A00E5E180 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		6A84F3BC1E5358DE00A4ADF4 /* soccer-ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soccer-ball.png"; sourceTree = "<group>"; };
+		6A84F3BE1E5359E400A4ADF4 /* user-silhouette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-silhouette.png"; sourceTree = "<group>"; };
+		6A84F3BF1E5359E400A4ADF4 /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+		6A84F3C21E53640600A4ADF4 /* nut-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nut-icon.png"; sourceTree = "<group>"; };
+		6A84F3C31E53640600A4ADF4 /* rate-star-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rate-star-button.png"; sourceTree = "<group>"; };
+		6A84F3C41E53640600A4ADF4 /* home-icon-silhouette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-icon-silhouette.png"; sourceTree = "<group>"; };
+		6A8ED9F21E79970C0033AD2B /* ClassMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassMenu.swift; sourceTree = "<group>"; };
+		6A93A2A71E6DBB4100F34DA0 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		6A943E5B1E8BEF1900B70CE0 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		6A943E5D1E8BFD3700B70CE0 /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		6A943E5F1E8C02FD00B70CE0 /* TabBarTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarTestViewController.swift; sourceTree = "<group>"; };
+		6A9CBA981E330669006C2EB9 /* KD Keila Daily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KD Keila Daily.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A9CBA9B1E330669006C2EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A9CBA9D1E330669006C2EB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A9CBAA21E330669006C2EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A9CBAA51E330669006C2EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A9CBAA71E330669006C2EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AAFED5D1E332691001D56C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ACF4E741E7AAC42003CF2E7 /* ClassSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassSlide.swift; sourceTree = "<group>"; };
+		6ACF4E761E7AAF55003CF2E7 /* ClassContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassContent.swift; sourceTree = "<group>"; };
+		6AE095B91EB5CB5F002C4989 /* kd-logo-r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kd-logo-r.png"; sourceTree = "<group>"; };
+		6AE095BB1EB5CEEF002C4989 /* calenda-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calenda-icon.png"; sourceTree = "<group>"; };
+		6AEA6FF01E856DA50008EA58 /* NewsByCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsByCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		6AEB7CDF1E7BFF72003FB619 /* NewsHomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsHomePageViewController.swift; sourceTree = "<group>"; };
+		6AEB7CE11E7C0355003FB619 /* NewsByCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsByCategoryViewController.swift; sourceTree = "<group>"; };
+		6AED45AD1EDC5C7C005FDE9C /* YoutubeVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeVideoTableViewCell.swift; sourceTree = "<group>"; };
+		6AF7BEC91E6C413100366A95 /* NewsHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		6AF7BECC1E6C455400366A95 /* ReferenceValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceValues.swift; sourceTree = "<group>"; };
+		6AF7BECE1E6C489700366A95 /* NewsByCategoryHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsByCategoryHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		863A89BC6D599EC08DC6230D /* Pods-KD Keila Daily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KD Keila Daily.release.xcconfig"; path = "Pods/Target Support Files/Pods-KD Keila Daily/Pods-KD Keila Daily.release.xcconfig"; sourceTree = "<group>"; };
+		D11B1FF3546BC60F0AE0393C /* Pods_KD_Keila_Daily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KD_Keila_Daily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A9CBA951E330668006C2EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B5147874FCDE8F8FA65DF3 /* Pods_KD_Keila_Daily.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A77E1AE1E438E3D00E5E180 /* Bridging Header */ = {
+			isa = PBXGroup;
+			children = (
+				6A77E1AF1E438E6B00E5E180 /* KD Keila Daily-Bridging-Header.h */,
+				6A77E1B01E438E6B00E5E180 /* SWRevealViewController.h */,
+				6A77E1B11E438E6B00E5E180 /* SWRevealViewController.m */,
+			);
+			name = "Bridging Header";
+			sourceTree = "<group>";
+		};
+		6A84F3B91E5358A800A4ADF4 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				6A1976701F0D3E3D009B0408 /* kd_startup.png */,
+				6AE095BB1EB5CEEF002C4989 /* calenda-icon.png */,
+				6AE095B91EB5CB5F002C4989 /* kd-logo-r.png */,
+				6A7335BD1E8F9E790023581B /* komsandialy_advertising.png */,
+				6A7335BE1E8F9E790023581B /* pisnoka_kd_ads.png */,
+				6A15F9101E818509006BE28B /* keila_daily_adv1.png */,
+				6A15F9111E818509006BE28B /* keila_daily_adv_2.png */,
+				6A21A7201E7EF93500639DAB /* keila_daily_adv.png */,
+				6A21A71E1E7EEEAA00639DAB /* keila_daily_menu.png */,
+				6A84F3C21E53640600A4ADF4 /* nut-icon.png */,
+				6A84F3C31E53640600A4ADF4 /* rate-star-button.png */,
+				6A84F3C41E53640600A4ADF4 /* home-icon-silhouette.png */,
+				6A84F3BE1E5359E400A4ADF4 /* user-silhouette.png */,
+				6A84F3BF1E5359E400A4ADF4 /* hand.png */,
+				6A84F3BC1E5358DE00A4ADF4 /* soccer-ball.png */,
+				6A56E8441E45C45300D1C901 /* spotify-logo.png */,
+				6A56E8421E45C3C000D1C901 /* play-button.png */,
+				6A56E8401E45C36200D1C901 /* newspaper.png */,
+				6A56E83E1E45B95200D1C901 /* seashore.jpg */,
+			);
+			name = Icon;
+			sourceTree = "<group>";
+		};
+		6A943E581E8BEE8300B70CE0 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				6A943E5B1E8BEF1900B70CE0 /* LeftViewController.swift */,
+				6A943E5D1E8BFD3700B70CE0 /* SelectViewController.swift */,
+				6A943E5F1E8C02FD00B70CE0 /* TabBarTestViewController.swift */,
+			);
+			name = Testing;
+			sourceTree = "<group>";
+		};
+		6A9CBA8F1E330668006C2EB9 = {
+			isa = PBXGroup;
+			children = (
+				6A9CBA9A1E330669006C2EB9 /* KD Keila Daily */,
+				6A9CBA991E330669006C2EB9 /* Products */,
+				CEC58EC07B63415DC139EFF3 /* Pods */,
+				85502166C8F54ACD45FED59D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A9CBA991E330669006C2EB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A9CBA981E330669006C2EB9 /* KD Keila Daily.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A9CBA9A1E330669006C2EB9 /* KD Keila Daily */ = {
+			isa = PBXGroup;
+			children = (
+				6A943E581E8BEE8300B70CE0 /* Testing */,
+				6A9CBA9B1E330669006C2EB9 /* AppDelegate.swift */,
+				6A9CBA9D1E330669006C2EB9 /* ViewController.swift */,
+				6AAFED5C1E332691001D56C1 /* Main.storyboard */,
+				6A9CBAA21E330669006C2EB9 /* Assets.xcassets */,
+				6A9CBAA41E330669006C2EB9 /* LaunchScreen.storyboard */,
+				6A84F3B91E5358A800A4ADF4 /* Icon */,
+				6AAFED591E332423001D56C1 /* Controller */,
+				6AF7BECB1E6C453A00366A95 /* Model */,
+				6AAFED5F1E332980001D56C1 /* Others */,
+				6A77E1AE1E438E3D00E5E180 /* Bridging Header */,
+				6A9CBAA71E330669006C2EB9 /* Info.plist */,
+			);
+			path = "KD Keila Daily";
+			sourceTree = "<group>";
+		};
+		6AAFED591E332423001D56C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A93A2A71E6DBB4100F34DA0 /* NewsDetailViewController.swift */,
+				6A77E1AA1E437D8200E5E180 /* NewsViewController.swift */,
+				6AEB7CDF1E7BFF72003FB619 /* NewsHomePageViewController.swift */,
+				6A77E1B31E43912A00E5E180 /* MenuTableViewController.swift */,
+				6A535AC51E44E2CB004D667F /* VideoViewController.swift */,
+				6A56E8461E45C4C600D1C901 /* TabBarViewController.swift */,
+				6AEB7CE11E7C0355003FB619 /* NewsByCategoryViewController.swift */,
+				6A624CD21E8035B0001BA128 /* ExSlideMenuController.swift */,
+				6A15F9141E81893B006BE28B /* NewsDetailTestViewController.swift */,
+				6A20E8441E8D43A00090699D /* MainViewController.swift */,
+				6A6CCDD31E8E9BF300977F7C /* NewsByCategoryMainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6AAFED5F1E332980001D56C1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				6A41A5651E6ECB6C00E383AD /* KeilaCategoryViewController.swift */,
+				6A41A5661E6ECB6C00E383AD /* KeilaCategoryViewController.xib */,
+				6A77E1A81E437D6800E5E180 /* NewsListTableViewCell.swift */,
+				6A77E1AC1E43821500E5E180 /* NewsListTableViewCell.xib */,
+				6AF7BEC91E6C413100366A95 /* NewsHeaderTableViewCell.swift */,
+				6AF7BECE1E6C489700366A95 /* NewsByCategoryHeaderTableViewCell.swift */,
+				6AEA6FF01E856DA50008EA58 /* NewsByCategoryCollectionViewCell.swift */,
+				6AED45AD1EDC5C7C005FDE9C /* YoutubeVideoTableViewCell.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		6AF7BECB1E6C453A00366A95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6AF7BECC1E6C455400366A95 /* ReferenceValues.swift */,
+				6A7230FA1E78422C0079B292 /* WebServices.swift */,
+				6A8ED9F21E79970C0033AD2B /* ClassMenu.swift */,
+				6ACF4E741E7AAC42003CF2E7 /* ClassSlide.swift */,
+				6ACF4E761E7AAF55003CF2E7 /* ClassContent.swift */,
+				6A21A71C1E7E97D500639DAB /* ClassHomeContent.swift */,
+				6A15F90E1E818394006BE28B /* ClassContentDetail.swift */,
+				6A455FEA1EDB289B00F69951 /* ClassVideo.swift */,
+				6A57BC631EDF1535008D2279 /* VideoLauncher.swift */,
+				6A3D1DE11F1675BB005E1375 /* CommonClass.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		85502166C8F54ACD45FED59D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D11B1FF3546BC60F0AE0393C /* Pods_KD_Keila_Daily.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC58EC07B63415DC139EFF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3998AD27D3E4A18058FCF711 /* Pods-KD Keila Daily.debug.xcconfig */,
+				863A89BC6D599EC08DC6230D /* Pods-KD Keila Daily.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A9CBA971E330668006C2EB9 /* KD Keila Daily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A9CBAAA1E330669006C2EB9 /* Build configuration list for PBXNativeTarget "KD Keila Daily" */;
+			buildPhases = (
+				96E446408228C00D7F6CD410 /* [CP] Check Pods Manifest.lock */,
+				6A9CBA941E330668006C2EB9 /* Sources */,
+				6A9CBA951E330668006C2EB9 /* Frameworks */,
+				6A9CBA961E330668006C2EB9 /* Resources */,
+				BD9A1D75FAEFC23A5F2FB5AB /* [CP] Embed Pods Frameworks */,
+				D32EA1242A9BB9C92BF8089B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KD Keila Daily";
+			productName = "KD Keila Daily";
+			productReference = 6A9CBA981E330669006C2EB9 /* KD Keila Daily.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A9CBA901E330668006C2EB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Bunmeng;
+				TargetAttributes = {
+					6A9CBA971E330668006C2EB9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 595Y4L6QQ8;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6A9CBA931E330668006C2EB9 /* Build configuration list for PBXProject "KD Keila Daily" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A9CBA8F1E330668006C2EB9;
+			productRefGroup = 6A9CBA991E330669006C2EB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A9CBA971E330668006C2EB9 /* KD Keila Daily */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A9CBA961E330668006C2EB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A84F3C51E53640600A4ADF4 /* nut-icon.png in Resources */,
+				6A7335C01E8F9E790023581B /* pisnoka_kd_ads.png in Resources */,
+				6AE095BA1EB5CB5F002C4989 /* kd-logo-r.png in Resources */,
+				6A9CBAA61E330669006C2EB9 /* LaunchScreen.storyboard in Resources */,
+				6A9CBAA31E330669006C2EB9 /* Assets.xcassets in Resources */,
+				6A21A71F1E7EEEAB00639DAB /* keila_daily_menu.png in Resources */,
+				6A84F3C01E5359E400A4ADF4 /* user-silhouette.png in Resources */,
+				6A77E1AD1E43821500E5E180 /* NewsListTableViewCell.xib in Resources */,
+				6A56E8431E45C3C000D1C901 /* play-button.png in Resources */,
+				6A84F3BD1E5358DE00A4ADF4 /* soccer-ball.png in Resources */,
+				6A1976711F0D3E3D009B0408 /* kd_startup.png in Resources */,
+				6A15F9131E818509006BE28B /* keila_daily_adv_2.png in Resources */,
+				6A15F9121E818509006BE28B /* keila_daily_adv1.png in Resources */,
+				6A41A5681E6ECB6C00E383AD /* KeilaCategoryViewController.xib in Resources */,
+				6A21A7211E7EF93500639DAB /* keila_daily_adv.png in Resources */,
+				6A84F3C11E5359E400A4ADF4 /* hand.png in Resources */,
+				6A7335BF1E8F9E790023581B /* komsandialy_advertising.png in Resources */,
+				6A56E8411E45C36200D1C901 /* newspaper.png in Resources */,
+				6AAFED5E1E332691001D56C1 /* Main.storyboard in Resources */,
+				6AE095BC1EB5CEEF002C4989 /* calenda-icon.png in Resources */,
+				6A84F3C61E53640600A4ADF4 /* rate-star-button.png in Resources */,
+				6A56E83F1E45B95200D1C901 /* seashore.jpg in Resources */,
+				6A56E8451E45C45300D1C901 /* spotify-logo.png in Resources */,
+				6A84F3C71E53640600A4ADF4 /* home-icon-silhouette.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96E446408228C00D7F6CD410 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9A1D75FAEFC23A5F2FB5AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KD Keila Daily/Pods-KD Keila Daily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D32EA1242A9BB9C92BF8089B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KD Keila Daily/Pods-KD Keila Daily-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A9CBA941E330668006C2EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A943E601E8C02FD00B70CE0 /* TabBarTestViewController.swift in Sources */,
+				6A93A2A81E6DBB4100F34DA0 /* NewsDetailViewController.swift in Sources */,
+				6AED45AE1EDC5C7C005FDE9C /* YoutubeVideoTableViewCell.swift in Sources */,
+				6A8ED9F31E79970C0033AD2B /* ClassMenu.swift in Sources */,
+				6A15F9151E81893B006BE28B /* NewsDetailTestViewController.swift in Sources */,
+				6A624CD31E8035B0001BA128 /* ExSlideMenuController.swift in Sources */,
+				6ACF4E751E7AAC42003CF2E7 /* ClassSlide.swift in Sources */,
+				6AF7BECF1E6C489700366A95 /* NewsByCategoryHeaderTableViewCell.swift in Sources */,
+				6A20E8451E8D43A00090699D /* MainViewController.swift in Sources */,
+				6A15F90F1E818394006BE28B /* ClassContentDetail.swift in Sources */,
+				6ACF4E771E7AAF55003CF2E7 /* ClassContent.swift in Sources */,
+				6A7230FB1E78422C0079B292 /* WebServices.swift in Sources */,
+				6A41A5671E6ECB6C00E383AD /* KeilaCategoryViewController.swift in Sources */,
+				6A56E8471E45C4C600D1C901 /* TabBarViewController.swift in Sources */,
+				6A3D1DE21F1675BB005E1375 /* CommonClass.swift in Sources */,
+				6A9CBA9E1E330669006C2EB9 /* ViewController.swift in Sources */,
+				6A535AC61E44E2CB004D667F /* VideoViewController.swift in Sources */,
+				6A77E1A91E437D6800E5E180 /* NewsListTableViewCell.swift in Sources */,
+				6AEA6FF11E856DA50008EA58 /* NewsByCategoryCollectionViewCell.swift in Sources */,
+				6A943E5E1E8BFD3700B70CE0 /* SelectViewController.swift in Sources */,
+				6AEB7CE21E7C0355003FB619 /* NewsByCategoryViewController.swift in Sources */,
+				6A943E5C1E8BEF1900B70CE0 /* LeftViewController.swift in Sources */,
+				6AF7BECA1E6C413100366A95 /* NewsHeaderTableViewCell.swift in Sources */,
+				6A77E1B41E43912B00E5E180 /* MenuTableViewController.swift in Sources */,
+				6A57BC641EDF1535008D2279 /* VideoLauncher.swift in Sources */,
+				6A455FEB1EDB289B00F69951 /* ClassVideo.swift in Sources */,
+				6A77E1B21E438E6B00E5E180 /* SWRevealViewController.m in Sources */,
+				6A21A71D1E7E97D500639DAB /* ClassHomeContent.swift in Sources */,
+				6A6CCDD41E8E9BF300977F7C /* NewsByCategoryMainViewController.swift in Sources */,
+				6AEB7CE01E7BFF72003FB619 /* NewsHomePageViewController.swift in Sources */,
+				6A9CBA9C1E330669006C2EB9 /* AppDelegate.swift in Sources */,
+				6A77E1AB1E437D8200E5E180 /* NewsViewController.swift in Sources */,
+				6AF7BECD1E6C455400366A95 /* ReferenceValues.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A9CBAA41E330669006C2EB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A9CBAA51E330669006C2EB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6AAFED5C1E332691001D56C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AAFED5D1E332691001D56C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A9CBAA81E330669006C2EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A9CBAA91E330669006C2EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A9CBAAB1E330669006C2EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3998AD27D3E4A18058FCF711 /* Pods-KD Keila Daily.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 595Y4L6QQ8;
+				INFOPLIST_FILE = "KD Keila Daily/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.KD-Keila-Daily";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KD Keila Daily/KD Keila Daily-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6A9CBAAC1E330669006C2EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 863A89BC6D599EC08DC6230D /* Pods-KD Keila Daily.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 595Y4L6QQ8;
+				INFOPLIST_FILE = "KD Keila Daily/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.KD-Keila-Daily";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KD Keila Daily/KD Keila Daily-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A9CBA931E330668006C2EB9 /* Build configuration list for PBXProject "KD Keila Daily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9CBAA81E330669006C2EB9 /* Debug */,
+				6A9CBAA91E330669006C2EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A9CBAAA1E330669006C2EB9 /* Build configuration list for PBXNativeTarget "KD Keila Daily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9CBAAB1E330669006C2EB9 /* Debug */,
+				6A9CBAAC1E330669006C2EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A9CBA901E330668006C2EB9 /* Project object */;
+}
